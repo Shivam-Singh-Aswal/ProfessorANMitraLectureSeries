@@ -1,0 +1,61 @@
+1. main landing page - something cool here
+	- about the lecture (in very brief)
+	- features of the lecture
+	- link to the registration form 
+
+
+2. About Lecture series (Prof Mitra and edWitten)
+
+
+3. Schedule
+	Day 1
+	Day 2
+
+	Ed Witten's lecture
+
+4. Registration page for ed's lecture
+
+5. The team 
+
+
+
+
+
+- register button (color change)
+- contact info of attendees
+- uniform nav bar in all pages
+- correct schedule page (add all entries)
+  - profs' profile page link
+- remove unneccessary elements
+- fix events drop down
+- insert bg images
+- insert colours
+
+
+Home About Schedule Team
+
+eq 2.17
+3.12-3.14
+4.7
+4.12-4.19
+
+grey background 
+
+schedule page - 
+hyperlink each name to respective web pages 
+hyperlink title to yt link 
+Day 1 - pre luch to zoom link 
+
++ pdf 
+
+
+- memories of ANMitra by different persons (by AaM)
+
+
+pictures of ANMitra 
+
+separate email id 
+
+remove team section
+
+threebody stable configuration loading animation

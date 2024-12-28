@@ -1,0 +1,58 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A. N. Mitra Memorial Lecture Series</title>
+  <link rel="stylesheet" href="{% static 'home2css.css' %}">
+</head>
+<body>
+    <div class="background"></div>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="/" class="nav-item">Home</a>
+            <a href="/about" class="nav-item">About</a>
+
+        </div>
+        <!--<div class="logo">Logo</div> -->
+        <div class="nav-right">
+            <div class="dropdown">
+                <div class="dropbtn">Schedule ▾</div>
+                <div class="dropdown-content">
+                    <a href="/schedule">Day 1</a>
+                    <a href="/schedule">Day 2</a>
+                    <a href="/schedule">Ed Witten's Lecture</a>
+                </div>
+            </div>
+            <a href="/attendees" class="nav-item">Attendees</a>
+            <a href="/register"> <button class="register-btn">Register</button></a>
+            <!-- <a href="/register" class="nav-item">Register</a> -->
+            <!-- <div class="dropdown">
+                <div class="dropbtn" style="padding-left: 0rem;"> &nbsp&nbsp▾&nbsp&nbsp </div>
+                <div class="dropdown-content">
+                    <a href="/attendees">Attendees</a>
+                </div>
+            </div> -->
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="{% static 'images/anmitra2.png' %}" alt="Prof. A. N. Mitra">
+            <!-- <img src="/anmitra.png"  -->
+        </div>
+        <div class="hero-text">
+            <h1>A. N. Mitra Memorial Lecture Series</h1>
+            <p>In the loving memory of Prof. A. N. Mitra, we are holding this memorial lecture series. This online lecture series is a tribute to the life and work of late professor A. N. Mitra. His contributions to the field of High Energy and Nuclear Physics are recognised widely around the world and he has inspired many to do the same!</p>
+            <p style="font-size: 40px; font-family: Lora;">14 - 15th April</p>
+            <div class="buttons">
+                <a href="/register" class="register">Register</a>
+                <a href="https://en.wikipedia.org/wiki/Asoke_Nath_Mitra" target="blank" class="learn-more">Learn More</a>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

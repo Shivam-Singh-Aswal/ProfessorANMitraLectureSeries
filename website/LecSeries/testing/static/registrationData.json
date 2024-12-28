@@ -1,0 +1,34 @@
+[
+    {
+        "name": "sdf",
+        "position": "student",
+        "institute": "sdf",
+        "domain": "physics",
+        "source": "institute",
+        "comments": "sdf"
+    },
+    {
+        "name": "2qw",
+        "position": "faculty",
+        "institute": "qewr",
+        "domain": "physics",
+        "source": "friends",
+        "comments": "qewr"
+    },
+    {
+        "name": "sdf",
+        "position": "student",
+        "institute": "sdfssd",
+        "domain": "maths",
+        "source": "social",
+        "comments": "sdfsdf"
+    },
+    {
+        "name": "Ayush",
+        "position": "student",
+        "institute": "IITR",
+        "domain": "physics",
+        "source": "teachers",
+        "comments": "Nothin"
+    }
+]
