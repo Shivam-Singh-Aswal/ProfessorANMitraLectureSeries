@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/run/media/shivam/DataDrive/IIT Roorkee/Aalok misra/ANMitraLectureSeries/test/animations/media/videos/latexEqRenderer/480p15/partial_movie_files/AnimateLatexEquation/3421487802_2555096944_223132457.mov'
+file 'file:/run/media/shivam/DataDrive/IIT Roorkee/Aalok misra/ANMitraLectureSeries/test/animations/media/videos/latexEqRenderer/480p15/partial_movie_files/AnimateLatexEquation/3218970159_4212778311_2862985041.mov'
+file 'file:/run/media/shivam/DataDrive/IIT Roorkee/Aalok misra/ANMitraLectureSeries/test/animations/media/videos/latexEqRenderer/480p15/partial_movie_files/AnimateLatexEquation/3218970159_850721231_2944091336.mov'
+file 'file:/run/media/shivam/DataDrive/IIT Roorkee/Aalok misra/ANMitraLectureSeries/test/animations/media/videos/latexEqRenderer/480p15/partial_movie_files/AnimateLatexEquation/3218970159_4291991802_1627224497.mov'
+file 'file:/run/media/shivam/DataDrive/IIT Roorkee/Aalok misra/ANMitraLectureSeries/test/animations/media/videos/latexEqRenderer/480p15/partial_movie_files/AnimateLatexEquation/3218970159_3890345977_2697100318.mov'
