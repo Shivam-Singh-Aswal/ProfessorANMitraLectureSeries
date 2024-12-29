@@ -6,7 +6,7 @@ from django.http import HttpResponse
 
 import json
 from pathlib import Path
-from django.shortcuts import render
+import os
 
 
 # def index(request):
@@ -33,10 +33,17 @@ def attendees(request):
 
 # Path to the JSON file
 # JSON_FILE_PATH = Path("registrationData.json")
-JSON_FILE_PATH = Path("../static/registrationData.json")
+print(__file__)
+
+# Get the directory of the current file
+base_dir = os.path.dirname(os.path.abspath(__file__))
+
+JSON_FILE_PATH = Path(f"{base_dir}/static/registrationData.json")
+# JSON_FILE_PATH = Path("static/registrationData.json")
 
 def registerEdLecture(request):
     if request.method == "POST":
+        print(__file__)
         print("**********INNNNNNNNN***************")
         # Extract data from the form
         name = request.POST.get("name")
@@ -68,12 +75,14 @@ def registerEdLecture(request):
         # Read existing data or create a new list
         if JSON_FILE_PATH.is_file():
             with open(JSON_FILE_PATH, "r") as file:
+                print("***********FILE FOUND***************")
                 registrations = json.load(file)
         else:
             registrations = []
 
         # Add the new entry
         registrations.append(registration_entry)
+        print(registrations)
 
         # Save back to the JSON file
         with open(JSON_FILE_PATH, "w") as file:
